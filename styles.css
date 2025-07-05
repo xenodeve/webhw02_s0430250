@@ -28,11 +28,12 @@ body {
   margin-left: 13px;
   font-size: 2.5em;
   text-decoration: none; /*ลบเส้นใต้ link*/
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 .logo-container {
-    transition: transform 0.4s ease;
-    transition-delay: 0.08s;
+  transition: transform 0.4s ease;
+  transition-delay: 0.08s;
 }
 
 .logo-container:hover {
@@ -42,11 +43,11 @@ body {
 .logo-container a:nth-child(1) {
   /* color: transparent; */
   /* -webkit-text-stroke: 1px white; */
-  color: rgb(231, 231, 231)
+  color: rgb(231, 231, 231);
 }
 
 .logo-container a:nth-child(2) {
-  color: rgba(247,113,0,255);
+  color: rgba(247, 113, 0, 255);
   animation: animate 7s ease-in-out infinite;
 }
 
@@ -94,7 +95,7 @@ body {
 }
 
 .table-container:hover {
-    box-shadow: 0 0 30px rgba(105, 105, 105, 0.4);
+  box-shadow: 0 0 30px rgba(105, 105, 105, 0.4);
 }
 
 table {
