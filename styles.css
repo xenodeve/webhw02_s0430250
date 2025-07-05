@@ -115,11 +115,6 @@ td:hover {
   transform: scale(1.06);
 }
 
-td[exz]:hover {
-    transform: scale(1.9);
-    border-radius: 12px;
-}
-
 td[colspan],
 td[rowspan] {
   /*เลือก td ที่มี colspan และ rowspan*/
