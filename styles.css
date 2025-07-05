@@ -1,3 +1,4 @@
+/* รองรับ Responsive Web Design เต็มรูปแบบ */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 * {
@@ -27,7 +28,7 @@ body {
   position: absolute; /* animation fix*/
   margin-left: 13px;
   font-size: 2.5em;
-  text-decoration: none; /*ลบเส้นใต้ link*/
+  text-decoration: none; /*ลบเส้นใต้จากค่า default ของ Browser */
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
@@ -51,7 +52,7 @@ body {
   animation: animate 7s ease-in-out infinite;
 }
 
-/* @keyframe สำหรับ logo-container a (KMUTNB) : child ที่ 2 */
+/* @keyframe สำหรับ logo-container a (KMUTNB) ตัวที่ 2 (ตัวหลัง)*/
 @keyframes animate {
   0%,
   100% {
@@ -123,7 +124,7 @@ td:hover {
 }
 
 td[fix] {
-    white-space: nowrap; /*ป้องกันการขึ้นบรรทัดใหม่อัตโนมัติของตัวเลข 2 ตัวขึ้นไป*/
+    white-space: nowrap; /*ป้องกันการขึ้นบรรทัดใหม่อัตโนมัติของตัวเลข 2 ตัวขึ้นไปในอุปกรณ์ขนาดพกพา*/
 }
 
 td[colspan],
