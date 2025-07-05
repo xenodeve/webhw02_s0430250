@@ -122,6 +122,10 @@ td:hover {
   transform: scale(1.06);
 }
 
+td[fix] {
+    white-space: nowrap; /*ป้องกันการขึ้นบรรทัดใหม่อัตโนมัติของตัวเลข 2 ตัวขึ้นไป*/
+}
+
 td[colspan],
 td[rowspan] {
   /*เลือก td ที่มี colspan และ rowspan*/
