@@ -114,8 +114,7 @@ td {
   background-color: #1e1e1e;
   color: #e6e6e6;
   word-break: break-word;
-  outline: 0px solid #444;
-  transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s ease, outline 0.4s ease;
+  transition: transform 0.4s ease, background-color 0.4s ease, color 0.4s ease, outline 0.2s ease, text-shadow 0.6s ease;
   transition-delay: 0.08s;
 }
 
@@ -125,7 +124,9 @@ td:hover {
   border-radius: 9px;
   transform: scale(1.06);
   outline: 2px solid rgba(255, 255, 255, 0.5);
-  outline-offset: -2px;
+  outline-offset: -1px;
+  text-shadow: 0 0 3px rgba(231, 231, 231, 1.5);
+  box-shadow: 0 0 10px rgba(231, 231, 231, 1.5);
 }
 
 td[fix] {
